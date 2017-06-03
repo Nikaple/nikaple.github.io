@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Chemical SI Helper</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="css/app.bed6180f733c6ce41be1.css" rel="stylesheet"></head>
+<link href="css/app.02a305173eb781b20dd0.css" rel="stylesheet"></head>
 
 <body>
     <div class="pure-form pure-form-stacked my-form">
@@ -17,7 +17,7 @@
         <textarea id="c13Peaks" rows="4" cols="55" height="100" placeholder="C13 peaks here..." class="input-textarea"></textarea>
         <div><span id="c13Output" class="output-text"></span></div>
         <div><span id="c13Error" class="output-text"></span></div>
-        <h1>Exact Mass Calculator</h1>
+        <h1>高分辨数据处理</h1>
         <fieldset class="radio-ion-field">
             <input type="radio" name="ion" value="None" class="radio-ion" checked>
             <span class="radio-text">None</span>
@@ -30,13 +30,14 @@
         </fieldset>
         <div class="input-formula-container">
             <input id="formula" name="mass" type="text" placeholder="formula here..." class="input-mass">
+            <input id="hrmsData" name="mass" type="number" placeholder="HRMS data here..." class="input-mass" min="0.0" step="0.0001">
             <input id="mmol" name="mass" type="number" placeholder="mmol here..." class="input-mass" min="0.0" step="0.01">
-            <input id="yield" name="mass" type="number" placeholder="yield here..." class="input-mass" min="0">
+            <input id="yield" name="mass" type="number" placeholder="yield here..." class="input-mass" min="0.0" step="0.1">
         </div>
-        <div id="massError"></div>
-        <div id="weight"></div>
         <div id="newFormula"></div>
+        <div id="weight"></div>
+        <div id="massError"></div>
     </div>
-<script type="text/javascript" src="scripts/app.bed6180f733c6ce41be1.js"></script></body>
+<script type="text/javascript" src="scripts/app.02a305173eb781b20dd0.js"></script></body>
 
 </html>

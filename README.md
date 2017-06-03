@@ -1,6 +1,6 @@
 # Chemical Supporting Information Helper
 
-[在线预览](https://nikaple.github.io/dist/index.html)
+[在线预览](https://nikaple.github.io/)
 
 ## 基本使用
 

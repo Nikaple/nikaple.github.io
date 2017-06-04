@@ -59,6 +59,7 @@
 ## Install locally
 
 ### 直接下载
+
 在当前页面靠近顶部的位置，找到```Clone or download```，点击```Download ZIP```，之后解压下载好的文件并打开```index.html```即可
 
 ### Contribute

@@ -64,7 +64,7 @@
 
 ### Contribute
 
-After installing [nodejs](https://nodejs.org) and [Git](https://git-scm.com/), run:
+After installing [NodeJS](https://nodejs.org) and [Git](https://git-scm.com/), run:
 ```
 git clone https://github.com/Nikaple/chem-si-helper.git
 cd chem-si-helper

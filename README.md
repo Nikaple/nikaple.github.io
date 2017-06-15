@@ -95,7 +95,7 @@
 
 ### Contribute
 
-Any contribution will be appreciated. To help improve the project, you can clone this repository and open a pull request, or even open an issue is fine.
+Any contribution will be appreciated. To help improve the project, you can clone this repository and open a pull request, or open an issue and describe your problem.
 
 After installing [NodeJS](https://nodejs.org) and [Git](https://git-scm.com/), run:
 ```

@@ -1,10 +1,14 @@
-# Chemical Supporting Information Helper
+# Post Spectra
 
 ## [在线预览](https://nikaple.github.io/) （暂不兼容`IE`浏览器）
 
+## For an English version of readme, click [here](https://github.com/Nikaple/post-spectra/blob/master/README-en.md).
+
 ## 太长不看
 
-### 本程序能接收两种数据：原始数据——用于格式化，或已处理的数据——用于检测。
+ 本程序能接收两种数据：
+ - 原始数据——用于格式化；
+ - 已处理的数据——用于检测。
 
 ## 基本使用
 
@@ -22,11 +26,11 @@
 
 #### <sup>1</sup>H NMR 原始数据处理
 
-在谱图软件`MestReNova`中处理好谱图后，选中氢谱，在菜单栏中单击`Multiplets Analysis`显示耦合常数，再在其下拉菜单中选择`Copy`。随后切换到浏览器界面，将刚刚所复制的数据粘贴在屏幕左侧的文本框中，然后到`Word`中粘贴即可。**（复制一次，粘贴两次）**
+在谱图软件`MestReNova`中处理好谱图后，选中氢谱，在工具中单击`Multiplets Analysis`图标显示耦合常数，再在其下拉菜单中选择`Copy`。随后切换到浏览器界面，将刚刚所复制的数据粘贴在屏幕左侧的文本框中，然后到`Word`中粘贴即可。**（复制一次，粘贴两次）**
 
 #### <sup>13</sup>C NMR 原始数据处理
 
-在谱图软件`MestReNova`中处理好谱图后（记得**定标**），选中碳谱，在菜单栏中`Peak Peaking`的下拉菜单中选择`Copy`。随后切换到浏览器界面，将刚刚所复制的数据粘贴在屏幕左侧的文本框中，然后到`Word`中粘贴即可。**（复制一次，粘贴两次）**
+在谱图软件`MestReNova`中处理好谱图后（记得**定标**），选中碳谱，在工具栏`Peak Peaking`的下拉菜单中选择`Copy`。随后切换到浏览器界面，将刚刚所复制的数据粘贴在屏幕左侧的文本框中，然后到`Word`中粘贴即可。**（复制一次，粘贴两次）**
 
 ### NMR 数据检测
 
@@ -65,7 +69,7 @@
 
 ### 规范数据示例
 
-  Yield 78% (174.8 mg); yellow solid; mp 85-87 °C; IR (KBr): 3448, 1555, 1459, 1430, 1229, 1129, 1074, 1025 cm<sup>-1</sup>; 1H NMR (600 MHz, CDCl<sub>3</sub>): δ = 11.43 (s, 1H), 8.28 (d, J = 6.0 Hz, 1H), 7.81 (dd, J = 7.8, 2.4 Hz, 3H), 7.67 (q, J = 8.4 Hz, 1H), 7.38 (br, 1H), 7.24 - 7.01 (m, 1H), 6.70–6.62 (m, 3H), 5.58−5.30 (m, 3H); 13C NMR (100 MHz, CDCl<sub>3</sub>): δ (ppm) = 144.4, 133.5(1), 133.5(2), 130.8(2C), 129.81, 129.79, 127.62, 127.42; HRMS (ESI): m/z [M + Na]<sup>+</sup> Calcd for C<sub>8</sub>H<sub>14</sub>BrN<sub>3</sub>Na, 266.0263; Found 266.0236.
+  <sup>1</sup>H NMR (600 MHz, CDCl<sub>3</sub>): δ = 11.43 (s, 1H), 8.28 (d, J = 6.0 Hz, 1H), 7.81 (dd, J = 7.8, 2.4 Hz, 3H), 7.67 (q, J = 8.4 Hz, 1H), 7.38 (br, 1H), 7.24 - 7.01 (m, 1H), 6.70–6.62 (m, 3H), 5.58−5.30 (m, 3H); <sup>13</sup>C NMR (100 MHz, CDCl<sub>3</sub>): δ (ppm) = 144.4, 133.5(1), 133.5(2), 130.8(2C), 129.81, 129.79, 127.62, 127.42; HRMS (ESI): m/z [M + Na]<sup>+</sup> Calcd for C<sub>9</sub>H<sub>14</sub>BrN<sub>3</sub>Na, 266.0263; Found 266.0236.
 
 ### 原始数据示例
 
@@ -104,3 +108,8 @@ cd chem-si-helper
 npm install
 npm start
 ```
+
+
+## LICENCE
+
+MIT
